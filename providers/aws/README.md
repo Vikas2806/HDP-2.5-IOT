@@ -35,7 +35,7 @@ How
 Known Issues
 ------------
 
-https://github.com/seanorama/ambari-bootstrap/issues
+https://github.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap/issues
 
 Contacts
 --------
