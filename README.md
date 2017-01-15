@@ -28,7 +28,7 @@ Requires:
 
 - Quick start _(ambari-agent only)_:
   - Fetch and then execute: `sudo sh ./ambari-bootstrap.sh`
-  - Or, if you trust me: `curl -sSL https://raw.githubusercontent.com/seanorama/ambari-bootstrap/master/ambari-bootstrap.sh | sudo -E sh`
+  - Or, if you trust me: `curl -sSL https://raw.githubusercontent.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap/master/ambari-bootstrap.sh | sudo -E sh`
 
 - With options _(showing install of Ambari agent, server, Oracle Java, and registering to an Ambari Server such that SSH keys aren't required)_
 
@@ -67,7 +67,7 @@ There are a few options:
   b. Pass the script to the servers a distributed ssh tool, such as pdsh. You could do this directly with SSH but ‘pdsh’ is more efficient.
 
   ```
-  bootstrap_url=https://raw.githubusercontent.com/seanorama/ambari-bootstrap/master/ambari-bootstrap.sh
+  bootstrap_url=https://raw.githubusercontent.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap/master/ambari-bootstrap.sh
   ambari_server=p-workshop-ops01.cloud.hortonworks.com  ## this is the internal hostname of the ambari_server. Likely different than the host you will SSH too.
 
   ## install the ambari-server
@@ -87,7 +87,7 @@ For example, this will deploy to a single node & then deploy with all HDP servic
 
   ```
   yum -y install git python-argparse
-  git clone https://github.com/seanorama/ambari-bootstrap
+  git clone https://github.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap
   cd ambari-bootstrap
   export install_ambari_server=true
   ./ambari-bootstrap.sh
@@ -99,8 +99,7 @@ If deploying to multiple nodes, install to all of the agent machines 1st, as des
 
 ### Contacts
 
-- http://github.com/seanorama/ambari-bootstrap/issues
+- http://github.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap/issues
 
-- Sean Roberts
-  - http://github.com/seanorama
-  - http://twitter.com/seano
+- Vikas
+  - http://github.com/Vikas2806/HDP-2.5-IOT
