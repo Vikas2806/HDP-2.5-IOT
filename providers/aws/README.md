@@ -40,5 +40,5 @@ https://github.com/seanorama/ambari-bootstrap/issues
 Contacts
 --------
 
-- http://github.com/seanorama/ambari-bootstrap/
-- Sean Roberts: @seano
+- http://github.com/Vikas2806/HDP-2.5-IOT/ambari-bootstrap/
+- Vikas Christie: @Vikas2806
